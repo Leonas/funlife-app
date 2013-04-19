@@ -1,0 +1,18 @@
+{
+    "android": {
+        "profiles": {
+            "DEFAULT": {
+                "keystore": "/Users/leonas/Dropbox/funlife/trigger_io/compressed/debug.keystore", 
+                "keypass": "android", 
+                "keyalias": "androiddebugkey", 
+                "storepass": "android"
+            }
+        }, 
+        "sdk": "/Applications/android-sdk-macosx/"
+    }, 
+    "ios": {
+        "device": "simulator", 
+        "simulatorsdk": "6.0", 
+        "simulatorfamily": "iphone"
+    }
+}
