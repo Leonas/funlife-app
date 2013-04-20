@@ -27,3 +27,4 @@ the views for development. This is probably the best way.
 
 Even though the js views are loaded, the pages are not in the DOM, thus not slowing down
 the phones.
+

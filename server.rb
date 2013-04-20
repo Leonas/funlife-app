@@ -15,7 +15,7 @@ class NonCachingFileHandler < WEBrick::HTTPServlet::FileHandler
 
 end
 
-server = WEBrick::HTTPServer.new :Port => 1234
+server = WEBrick::HTTPServer.new :Port => 1244
 server.mount "/", NonCachingFileHandler , './source/'
 trap('INT') { server.stop }
 server.start
