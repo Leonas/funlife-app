@@ -10,3 +10,5 @@ gem 'puffing-billy'
 gem 'capybara'
 #gem 'capybara-json'
 gem 'poltergeist'
+
+gem 'cucumber'
