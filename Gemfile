@@ -5,7 +5,7 @@ gem 'guard-spork'
 gem 'poltergeist'
 gem 'factory_girl'
 gem 'faker'
-gem 'puffing-billy'
+gem 'puffing-billy', :require => 'billy', :git => 'git://github.com/oesmith/puffing-billy.git'
 
 gem 'capybara'
 #gem 'capybara-json'

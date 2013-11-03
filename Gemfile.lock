@@ -1,3 +1,15 @@
+GIT
+  remote: git://github.com/oesmith/puffing-billy.git
+  revision: 8ca8d247f3740e7492a3dbb751097df250b9683c
+  specs:
+    puffing-billy (0.2.0)
+      capybara
+      em-http-request
+      eventmachine
+      eventmachine_httpserver
+      http_parser.rb
+      yajl-ruby
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -88,13 +100,6 @@ GEM
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
-    puffing-billy (0.2.0)
-      capybara
-      em-http-request
-      eventmachine
-      eventmachine_httpserver
-      http_parser.rb
-      yajl-ruby
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -159,5 +164,5 @@ DEPENDENCIES
   guard-rspec
   guard-spork
   poltergeist
-  puffing-billy
+  puffing-billy!
   rspec-rails

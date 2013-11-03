@@ -2,7 +2,7 @@
 
 require 'rubygems'
 require 'spork'
-
+require 'billy/rspec'
 #require 'spork/ext/ruby-debug'
 
 Spork.prefork do
@@ -13,6 +13,16 @@ Spork.prefork do
   require 'rspec/rails'
 
   require 'rspec/autorun'
+
+
+
+
+
+# select a driver for your chosen browser environment
+  Capybara.javascript_driver = :selenium_billy
+# Capybara.javascript_driver = :webkit_billy
+# Capybara.javascript_driver = :poltergeist_billy
+
 
 
 #  require 'database_cleaner'       #does this need pg or other? for the remote stuff
